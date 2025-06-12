@@ -1,0 +1,12 @@
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, this is a file I/O example.")
+
+# Reading from the file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print("File content:", content)
+  
+# Taking input from the user
+name = input("Enter your name: ")
+print("Hello,", name)
